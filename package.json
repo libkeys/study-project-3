@@ -1,0 +1,48 @@
+{
+  "name": "libkeys",
+  "version": "0.0.1",
+  "author": "Yaroslav Rakitin <libkeys@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env PORT=9000 nodemon app.js",
+    "debug": "cross-env PORT=9000 nodemon app.js --inspect",
+    "restart": "touch app.js",
+    "html": "gulp htmlCopy"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.1.0",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "emailjs": "^3.2.1",
+    "eslint-config-prettier": "^6.11.0",
+    "express": "^4.17.1",
+    "gulp-ejs": "^5.1.0",
+    "gulp-pug": "^4.0.1",
+    "jquery": "^3.5.1",
+    "mongoose": "^5.9.22",
+    "nodemailer": "^6.4.10",
+    "pug": "^3.0.0",
+    "static-asset": "^0.6.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
